@@ -1,0 +1,63 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.menu{
+    transition: .3s;
+    color: white;
+}
+
+.menu:hover{
+    color: #3e6afd;
+}
+
+.azul{
+    color: #3e6afd;
+}
+ 
+.branco{
+    color: white;
+}
+
+.opacidade{
+    opacity: 0.8;
+}
+
+.arma{
+    width: 100%;
+}
+
+.card-item{
+    transition: 0.3s;
+}
+
+.card-item:hover{
+    transform: scale(1.1);
+}
+
+.sombra{
+    box-shadow: 1px 1px 30px black;
+}
+
+.botao:hover{
+    background-color: transparent;
+}
+
+/* ids para navbar */
+#robo{}
+
+#imagens{}
+
+#arma{}
+
+#hardware{}
+
+#videos{}
+
+#grupo{
+}
+
+#competicao{}
+
+#contato{}

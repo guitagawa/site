@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Robo LWM-10</title>
+
+    <!-- link css do bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <!-- link minha css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Titillium+Web&display=swap" rel="stylesheet">
+
+    <!-- link icons do bootsrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<body class="bg-dark">
+
+    <!-- Header -->
+    <header>
+
+        <nav class="container-fluid navbar navbar-expand-lg bg-black rounded fixed-top opacidade">
+            <div class="container ">
+
+                <button class="navbar-toggler mx-auto text-light " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="bi bi-list text-light"></i>
+                </button>
+
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+
+                    <li class="nav-item d-flex align-items-center justify-content-center ">
+                        <a class="nav-link menu fs-2" href="#robo">ActiveTech</a>
+                    </li>
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="#robo">Robô</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="#competicao">Competição</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="#imagens">Imagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="#arma">Arma</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="#hardware">Hardware</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="#videos">Vídeos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="#grupo">Grupo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- seção apresentacao -->
+    <main class="container mt-5">
+
+        <section class="row d-flex align-items-center" id="robo">
+            <div class="col-lg-6 ">
+                <h1 class="text-light my-5 text-center">LWM-10</h1>
+
+                <p class="text-light fs-4 mb-4 lead ">Conheça o LWM-10, um robô da Active Tech, criado com um único
+                    objetivo: conquistar a RoboCup da FIAP. Controlado via Bluetooth e programado com Arduino, ele é o
+                    orgulho do nosso ano letivo de 2023.</p>
+                <p class="text-light fs-4 mt-2 lead ">O LWM-10 é a façanha da Active Tech, uma equipe dedicada a vencer
+                    a RoboCup da FIAP. Com controle Bluetooth e programação Arduino, esta máquina é o resultado de um
+                    esforço árduo ao longo do ano letivo.</p>
+
+            </div>
+            <figure class="col-lg-6">
+                <img src="./assets/images/cool-robot-animate.svg" alt="Robo de 'batalha' imagem meramente ilustrativa">
+            </figure>
+
+        </section>
+    </main>
+
+    <!-- seção competicao -->
+    <main class="container mb-5">
+        <h1 class="text-light mb-5 text-center display-1">Competições</h1>
+        <section class="row d-flex align-items-center" id="competicao">
+            <figure class="col-lg-6">
+                <img src="./assets/images/foto robocup.jpg" class="w-100" alt="foto da competicao robocup">
+            </figure>
+            <div class="col-lg-6 d-flex align-items-center flex-column ">
+                <p class="text-light fs-5 mb-3 lead">A RoboCup é um evento promovido pela FIAP, onde os grupos projetam robôs que se deslocam via Bluetooth, possuem uma arma ativada por sensor e são capazes de transportar uma bexiga.</p>
+                <p class="text-light fs-5 mb-3 lead">Os alunos do primeiro ano de sistemas de informação, montam seus robôs para a competicao. O desafio é estourar a bexiga do adversário.
+                <p class="text-light fs-5 mb-3 lead">Os robôs que se destacam na primeira fase competem no NEXT, um evento organizado pela FIAP, que reúne projetos de todos os cursos e anos, com o objetivo de promover a tecnologia e os projetos dos alunos.</p>
+
+                <a class="btn btn-primary btn-lg botao"  href="https://www.fiap.com.br/2017/10/23/robocup-3/" target="_blank">Saiba mais</a>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- seção imagens -->
+    <main class="container d-flex justify-content-center align-items-center bg-secondary rounded my-3 sombra">
+
+        <section class="row container my-3 d-flex align-items-center justify-content-center " id="imagens">
+            <div class="col-md-12">
+
+                <h1 class=" display-1 text-light text-center mb-2">Imagens</h1>
+
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active d-flex justify-content-center">
+                            <img src="./assets/images/foto de cima.jfif" class="d-block w-50"
+                                alt="foto do robo de cima">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/foto de frente.jfif" class="d-block w-100"
+                                alt="foto do robo de frente">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/foto de tras.jfif" class="d-block w-100"
+                                alt="foto do robo de trás">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/foto arma inativa.jfif" class="d-block w-100"
+                                alt="foto do robo de lado com arma inativa">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/foto robo arma ativa.jfif" class="d-block w-100"
+                                alt="foto do robo de lado com arma ativa">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </section>
+    </main>
+
+    <!-- seçao arma -->
+    <main class="container d-flex justify-content-center my-3 rounded bg-secondary sombra">
+
+        <section class="container row my-5" id="arma">
+
+
+            <figure class="col-lg-6 d-flex flex-column align-items-center">
+                <h1 class=" my-3 text-light text-center display-1">Arma inativa</h1>
+                <img src="./assets/images/visao lateral inativa.png" class="arma" alt="">
+                <p class="lead text-light my-4 text-center">Esquema mostrando como o LWM-10 fica com a arma inativa</p>
+            </figure>
+
+            <figure class="col-lg-6 d-flex flex-column align-items-center">
+                <h1 class=" my-3 text-light display-1 text-center ">Arma ativa</h1>
+                <img src="./assets/images/visao lateral ativa.png" class="arma" alt="">
+                <p class="lead text-light my-4 text-center">Esquema mostrando como o LWM-10 fica com a arma ativa</p>
+            </figure>
+
+            <div class="col-lg-12 mt-3">
+                <p class=" fs-4 lead text-light">Nossa arma é uma bola de isopor com agulhas presas na ponta de um
+                    palito de madeira. Ela é ativada por meio de uma chave de fim de curso, que atua como um sensor
+                    mecânico (indicado em azul no esquema). Quando acionada, o ataque dura 15 segundos e, em seguida,
+                    retorna à posição original, podendo ser reativado a qualquer momento. </p>
+            </div>
+
+
+        </section>
+
+    </main>
+    <!-- seção do hardware -->
+    <main class="container bg-secondary my-3 rounded sombra">
+
+        <section class="row d-flex justify-content-center " id="hardware">
+
+            <H1 class="display-1 text-light text-center my-2">HARDWARE</H1>
+
+            <!-- arduino -->
+            <div class="card col-lg-4 mx-3 my-3 card-item" style="width: 18rem;">
+                <img src="./assets/images/arduino-1128227_640.jpg" class=" rounded card-img-top my-1"
+                    alt="imagem ilustrativa das placas de controles">
+                <div class="card-body">
+                    <h5 class="card-title">Placas de controle</h5>
+                    <p class="card-text">1x-Arduino MEGA</p>
+                    <p class="card-text">1x-Shield de motor</p>
+                    <p class="card-text">1x-Placa bluetooth</p>
+                </div>
+            </div>
+
+            <!-- bateria -->
+            <div class="card col-lg-4 mx-3 my-3 card-item" style="width: 18rem;">
+                <img src="./assets/images/battery-4912813_640.jpg" class="card-img-top rounded my-1"
+                    alt="imagem ilustrativa da bateria ">
+                <div class="card-body">
+                    <h5 class="card-title">Bateria</h5>
+                    <p class="card-text ">1x-Soquete de 6 pilhas AA</p>
+                    <p class="card-text ">6x-Pilhas AA</p>
+                </div>
+            </div>
+
+            <!-- led -->
+            <div class="card col-lg-4 mx-3 my-3 card-item" style="width: 18rem;">
+                <img src="./assets/images/led8806-2333887_640.jpg" class="card-img-top rounded my-1"
+                    alt="imagem ilustrativa da Iluminação led">
+                <div class="card-body">
+                    <h5 class="card-title">Iluminação</h5>
+                    <p class="card-text ">1x-Fita led 5V</p>
+                    <p class="card-text ">1x-Protoboard</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="row d-flex justify-content-center">
+
+            <!-- motor -->
+            <div class="card col-lg-4 mx-3 my-3 card-item" style="width: 18rem;">
+                <img src="./assets/images/car-engine-1548434_640.jpg" class="card-img-top rounded my-1"
+                    alt="imagem ilustrativa do motor">
+                <div class="card-body">
+                    <h5 class="card-title">Motores</h5>
+                    <p class="card-text ">2x-Motor DC 3V - 6V Eixo Duplo - Com caixa de Redução Servo</p>
+                    <p class="card-text ">1x-Servo Motor Metal Gear MG995</p>
+                </div>
+            </div>
+
+            <!-- rodas -->
+            <div class="card col-lg-4 mx-3 my-3 card-item" style="width: 18rem;">
+                <img src="./assets/images/car-tyres-63928_640.jpg" class="card-img-top rounded my-1"
+                    alt="imagem ilustrativa das rodas">
+                <div class="card-body">
+                    <h5 class="card-title">Rodas</h5>
+                    <p class="card-text ">1x-Rodízio giratório (Roda boba)</p>
+                    <p class="card-text ">2x-Rodas de espuma</p>
+                </div>
+            </div>
+
+            <!-- cabos jumper -->
+            <div class="card col-lg-4 mx-3 my-3 card-item" style="width: 18rem;">
+                <img src="./assets/images/pc-5302101_640.jpg" class="card-img-top rounded my-1"
+                    alt="imagem ilustrativa dos cabos ">
+                <div class="card-body">
+                    <h5 class="card-title">Cabos</h5>
+                    <p class="card-text ">20x-Jumper MF</p>
+                    <p class="card-text ">20x-Jumper MM</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <!-- VIDEOS -->
+    <main class="container bg-secondary my-3 rounded sombra">
+
+        <section class="p-3" id="videos">
+
+            <h1 class="display-1 text-light text-center">VÍDEOS DO ROBÔ</h1>
+
+            <div class="ratio ratio-16x9 my-2 ">
+                <iframe class="rounded" src="https://www.youtube.com/embed/hsByJIrqQY8?si=18TXKNVQtIxg6Syf" title="Robô andando"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="ratio ratio-16x9 my-2 ">
+                <iframe class="rounded" src="https://www.youtube.com/embed/3XjCzUeXFL0?si=3wHZsT-7P-YyfgVN" title="teste da arma"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+
+        </section>
+    </main>
+
+
+    <!-- grupo -->
+    <main class="rounded bg-light mx-2 sombra " >
+        <section class="container mb-4" id="grupo">
+            <h1 class="display-1 text-center mt-5">ACTIVE TECH</h1>
+
+            <div class="row">
+                <p class=" col-md-6 fs-4 mt-3 lead ">Somos a Active Tech, uma equipe apaixonada por tecnologia e
+                    inovação, impulsionada pela visão de criar soluções que transformam o mundo ao nosso redor. Nossa
+                    jornada é alimentada pela crença de que a tecnologia pode resolver desafios complexos e aprimorar
+                    vidas.</p>
+
+                <p class="col-md-6 fs-5 mt-3 lead">Seja você um consumidor em busca de soluções tecnológicas de ponta,
+                    ou um investidor visionário em busca de oportunidades emocionantes e parcerias estratégicas, a
+                    Active Tech é sua porta de entrada para inovação e crescimento. Junte-se a nós enquanto continuamos
+                    nossa jornada, transformando ideias ousadas em realidade e moldando o amanhã com tecnologia. A
+                    Active Tech é inovação em movimento.</p>
+            </div>
+
+            <h1 class="display-6 text-center">Conheça nossos integrantes</h1>
+
+
+            <!-- integrantesz -->
+            <div class="accordion" id="accordionExample">
+
+                <!-- 1 -->
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Guilherme Tagawa
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body row d-flex justify-content-center">
+                            <img class="col-lg-4" src="./assets/images/foto guilherme.enc" class="w-25 h-50"
+                                alt="Foto do Guilherme">
+                            <div class="col-md-4 d-flex flex-column justify-content-evenly ">
+                                <h1 class="display-5">Guilherme Tagawa</h1>
+                                <p class="lead">Aluno do primeiro ano de Sistemas de Informação na FIAP</p>
+                                <p class="fs-6 lead">RM:98306</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Enzo Luciano
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body row d-flex justify-content-center">
+                            <img class="col-lg-4" src="./assets/images/foto luciano.enc" class="w-25 h-50"
+                                alt="Foto do Enzo">
+                            <div class="col-md-4 d-flex flex-column justify-content-evenly ">
+                                <h1 class="display-5">Enzo Luciano</h1>
+                                <p class="lead">Aluno do primeiro ano de Sistemas de Informação na FIAP</p>
+                                <p class="fs-6 lead">RM:552486</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Willian Haguihara
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body row d-flex justify-content-center">
+                            <img class="col-lg-4" src="./assets/images/foto willian.enc" class="w-25 h-50"
+                                alt="foto do Willian">
+                            <div class="col-md-4 d-flex flex-column justify-content-evenly ">
+                                <h1 class="display-5">Willian Haguihara</h1>
+                                <p class="lead">Aluno do primeiro ano de Sistemas de Informação na FIAP</p>
+                                <p class="fs-6 lead">RM:99688</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFuor" aria-expanded="false" aria-controls="collapseFuor">
+                            Lucas Exposito
+                        </button>
+                    </h2>
+                    <div id="collapseFuor" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body row d-flex justify-content-center">
+                            <img class="col-lg-4" src="./assets/images/foto lucas.enc" class="w-25 h-50"
+                                alt="foto do lucas">
+                            <div class="col-md-4 d-flex flex-column justify-content-evenly ">
+                                <h1 class="display-5">Lucas Exposito</h1>
+                                <p class="lead">Aluno do primeiro ano de Sistemas de Informação na FIAP</p>
+                                <p class="fs-6 lead">RM:550956</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Matheus Nakamura
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body row d-flex justify-content-center">
+                            <img class="col-lg-4" src="./assets/images/foto matheus.jpg" class="w-25 h-50"
+                                alt="Foto do Matheus">
+                            <div class="col-md-4 d-flex flex-column justify-content-evenly ">
+                                <h1 class="display-5">Matheus Nakamura</h1>
+                                <p class="lead">Aluno do primeiro ano de Sistemas de Informação na FIAP
+                                </p>
+                                <p class="fs-6 lead">RM:550213</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="display-6 text-center my-3" id="contato">Contato</h1>
+
+            <section class="my-4">
+
+                <form id="contato" name="contato" method="get" action="">
+
+                    <div class="row">
+
+                        <!-- nome -->
+                        <div class="col-md-6 my-3">
+                            <label for="nome" class="form-label">Nome: </label>
+                            <input type="text" id="nome" name="nome" class="form-control"
+                                placeholder="Ex:Nome Sobrenome" maxlength="15" required>
+                        </div>
+                        <!-- email -->
+                        <div class="my-3 col-md-6">
+                            <label for="email" class="form-label">Email: </label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="name@example.com" required>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <!-- telefone -->
+                        <div class="my-3 col-md-6">
+                            <label for="celular" class="form-label">Celular: </label>
+                            <input class="form-control" type="text" id="celular" name="telefone" placeholder="+55 11 91234-5678" required>
+                        </div>
+
+                        <!-- forma de contato -->
+                        <div class="col-md-6 my-3">
+                            <p>Forma de contato:</p>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                value="option1" required>
+                                <label class="form-check-label" for="inlineRadio1">Email</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2" required>
+                                <label class="form-check-label" for="inlineRadio2">Celular</label>
+                            </div>
+                            
+                        </div>
+                        <!-- mensagem -->
+                        <div class="my-3 col-md-12">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensagem: </label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                        </div>
+
+                        <button class="my-5 rounded">Enviar</button>
+
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer class="container-fluid bg-black p-5">
+        <div class="text-center text-light">
+            <p>FIAP TURMA 1SIS</p>
+            <p>SPRINT 3 WEB E SISTEMAS DE INFORMAÇÃO</p>
+            <P>GRUPO ACTIVE TECH</P>
+            <P>ROBÔ LWM-10</P>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+<!-- <section class="container-fluid plataforma3 d-flex align-items-center
+        justify-content-center ">
+        <div class="container cinza text-center ">
+            <p><i class="bi bi-c-circle"></i> Exercício 01 - Bootstrap</p>
+            <div class=" text-center">
+                <a class="botao" href="">Link -</a>
+                <a class="botao" href="">Link -</a>
+                <a class="botao" href="">Link</a>
+            </div>
+        </div>
+    </section> -->
